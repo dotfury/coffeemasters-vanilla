@@ -23,7 +23,7 @@ body>header {
 
 body>main {
     margin: auto;
-    /* margin-top: 60px; */
+    margin-top: 60px;
     max-width: 500px;
 }
 
