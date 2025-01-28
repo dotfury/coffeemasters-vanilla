@@ -7,11 +7,18 @@ import { MenuPage } from './components/MenuPage.js';
 import { DetailsPage } from './components/DetailsPage.js';
 import { OrderPage } from './components/OrderPage.js';
 import ProductItem from './components/ProductItem.js';
+import CartItem from './components/CartItem.js';
 
 window.app = {
   store: Store,
   router: Router
 };
+
+customElements.define("order-page", OrderPage);
+customElements.define("cart-item", CartItem);
+customElements.define('menu-page', MenuPage);
+customElements.define("details-page", DetailsPage);
+customElements.define("product-item", ProductItem);
 
 window.addEventListener('DOMContentLoaded', async () => {
   loadData();

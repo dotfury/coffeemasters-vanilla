@@ -40,5 +40,3 @@ export class DetailsPage extends HTMLElement {
     this.renderData();
   }
 }
-
-customElements.define("details-page", DetailsPage);

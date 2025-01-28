@@ -53,5 +53,3 @@ export class MenuPage extends HTMLElement {
     }
   }
 }
-
-customElements.define('menu-page', MenuPage);
