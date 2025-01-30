@@ -50,6 +50,8 @@ const Router = {
       main.appendChild(pageElement);
       window.scrollX = 0;
       window.scrollY = 0;
+    } else {
+      main.innerHTML = 'oops, 404';
     }
   }
 };
