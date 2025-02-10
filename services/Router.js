@@ -17,7 +17,6 @@ const Router = {
     Router.go(location.pathname);
   },
   go: (route, addToHistory = true) => {
-    console.log('go to ' + route);
     const main = document.querySelector('main');
     if (addToHistory) {
       history.pushState({ route }, null, route);

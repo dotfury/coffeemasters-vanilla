@@ -25,7 +25,7 @@ window.addEventListener('DOMContentLoaded', async () => {
   app.router.init();
 });
 
-window.addEventListener('appcartchange', event => {
+window.addEventListener('appcartchange', () => {
   const badge = document.getElementById('badge');
   const qty = app.store.cart.reduce((acc, item) => {
     return acc + item.quantity;
